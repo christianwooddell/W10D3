@@ -12,7 +12,7 @@ export default class Game extends React.Component{
 
     restartGame() {
         const board = new Minesweeper.Board(9, 10);
-        this.setState({ board: board })''
+        this.setState({ board: board });
     }
 
     updateGame() {
@@ -20,6 +20,11 @@ export default class Game extends React.Component{
     }
 
     render() {
-
-    }
+        return (
+            <div>
+                <h1>Hey there :) !!</h1>
+                <Board board={this.state.board} updateGame={this.updateGame} />
+            </div>
+        );
+    }   
 }
