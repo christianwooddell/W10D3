@@ -2,7 +2,7 @@
   "name": "minesweeper",
   "version": "1.0.0",
   "description": "",
-  "main": "minesweeper 3.js",
+  "main": "minesweeper.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch --mode=development"
