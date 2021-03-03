@@ -8,7 +8,7 @@ export default class Tile extends React.Component{
 
     render(){
         return (
-            "T"
+            "\u2665"
         );
     }
 }
